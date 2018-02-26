@@ -40,6 +40,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QZo-Nh-yvh" secondAttribute="trailing" constant="37.5" id="Gaj-am-d9p"/>
                             <constraint firstItem="QZo-Nh-yvh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oCe-Cj-ETT"/>
                             <constraint firstItem="QZo-Nh-yvh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="ovE-hx-psr"/>
                         </constraints>
@@ -263,10 +264,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pUJ-K3-vEr">
-                                <rect key="frame" x="0.0" y="290.5" width="0.0" height="86.5"/>
+                                <rect key="frame" x="0.0" y="290.5" width="375" height="86.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctB-fE-kQE">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="66"/>
+                                        <rect key="frame" x="123.5" y="0.0" width="128" height="66"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
